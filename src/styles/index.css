@@ -6,6 +6,7 @@ body {
   background-image: url("../images/jordan_square_gif_042918.gif");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 
@@ -25,12 +26,11 @@ div {
   justify-content: center;
 }
 
-.container {
-}
 p {
   text-align: justify;
   margin: 100px;
-  color: white;
+  color: #ffffff;
+  opacity: 70%;
 }
 
 section.container figure img:hover {
@@ -44,7 +44,7 @@ section.container figure img:hover {
 
 .responsive {
   width: 20%;
-  height:fit-content
+  height:fit-content;
 }
 
 img:hover {
@@ -86,4 +86,26 @@ img:hover {
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+main {
+  text-align: center;
+  margin: 0 auto;
+  font-size: clamp(17px, 4vw, 21px);
+  
+}
+
+h2 {
+  position:absolute;
+  bottom: -50px;
+  right: 90px;
+  vertical-align: bottom;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a:link,
+a:visited {
+  color: white;
 }
